@@ -1,0 +1,132 @@
+body{
+    width:960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+
+section img:first-child{
+    width:63 ;
+    height:36
+}
+
+p img:first-child{
+    width:63;
+    height:36;
+    margin-right: 5px;
+    float:left;
+}
+
+ section.aboutus img{
+    float:left;
+    width:80;
+    height: 100;
+    margin-right: 15px;
+    border-radius: 35%;
+    border:2px solid #CC1C0D;
+
+}
+section img{
+    width:80;
+    height: 100;
+}
+
+
+
+img + ul {
+    list-style-type: none !important;
+  }
+
+  ul ul {
+    list-style-type: none !important;
+  }
+
+
+    img~ul:first-of-type{
+      padding:0px;
+    }
+
+
+
+  img + ul li a
+   {
+  
+    color: #CC1C0D ;
+   
+  }
+
+
+
+
+h2{
+  color :#CC1C0D ;
+  border-radius: 5px;
+  border: 2px solid #929CA4 ;
+  background-color: #DFE3E6 ;
+  padding:1px;
+  padding-left: 5px;
+}
+
+a{
+color : #CC1C0D ;
+}
+
+p#vprospect, p#vconvert, p#vretain{
+    font-weight:bold;
+}
+
+  
+section.pricing div:nth-of-type(4){
+    float:left;
+    border-radius: 20px;
+    border: 2px solid grey ;
+    margin-right:5px;
+    padding-top: 20px;
+    width:23%;
+    text-align:center;
+  } 
+
+    
+section.pricing div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  } 
+section.pricing div {
+    float:left;
+    border-radius: 20px;
+    border: 2px solid grey ;
+    margin-right:5px;
+    padding: 2px;
+    width:23%;
+  }
+
+  section.pricing div:nth-of-type(1) h3{
+      border-top:6px solid #CC1C0D;
+     text-align:center;
+  }
+  section.pricing div:nth-of-type(2) h3{
+    border-top:6px solid #37A4A4;
+    text-align:center;
+}
+section.pricing div:nth-of-type(3) h3{
+    border-top:6px solid #685288;
+    text-align:center;
+}
+section.pricing div:nth-of-type(4) h3{
+    border-top:6px solid #000000;
+    text-align:center;
+}
+
+section.pricing div p{
+padding-left:30px;
+padding-bottom: 10px;
+padding-right:30px;}
+
+section.pricing div img{
+    float : center;
+}
