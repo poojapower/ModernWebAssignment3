@@ -101,24 +101,23 @@ section.pricing div {
     border-radius: 20px;
     border: 2px solid grey ;
     margin-right:5px;
-    padding: 2px;
     width:23%;
   }
 
   section.pricing div:nth-of-type(1) h3{
-      border-top:6px solid #CC1C0D;
+      border-top:8px solid #CC1C0D;
      text-align:center;
   }
   section.pricing div:nth-of-type(2) h3{
-    border-top:6px solid #37A4A4;
+    border-top:8px solid #37A4A4;
     text-align:center;
 }
 section.pricing div:nth-of-type(3) h3{
-    border-top:6px solid #685288;
+    border-top:8px solid #685288;
     text-align:center;
 }
 section.pricing div:nth-of-type(4) h3{
-    border-top:6px solid #000000;
+    border-top:8px solid #000000;
     text-align:center;
 }
 
